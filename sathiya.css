@@ -173,7 +173,7 @@ h5{
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        font-size: 3px !important;
+        font-size: 0.5vh !important;
         margin: 0 !important;
     }
     .btn h6{
