@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem,5rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .15);
+    background-color: rgb(255, 255, 255)!important;
+}
+#navbar{
+    background-color: #ffff!important;
+}
+.card-body h5{
+    font-size: 13px !important;
+}
+.btn h6{
+    font-size: 10px !important;
+}
+h5{
+    size: 1px;
+}
+.navbar-nav{
+    background-color: #ffffff !important;
+}
+#shop{
+    background-color: rgb(255, 255, 255);
+}
+.card{
+    margin-top: 13px !important;
+    margin-left: 5px !important;
+}
+.card img {
+    height: 150px;
+    width: 150px;
+}
+#Conditioner .card{
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: rgb(255, 255, 255);
+}
+#offer{
+    background-color: salmon;
+}
+#brands{
+    background-color: salmon;
+}
+#brands img{
+    border: 5px solid black;
+    border-radius: 50px;
+    gap: 15px !important;
+    width: 125px;
+    padding: 10px !important;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+#down{
+    background-color: rgb(255, 255, 255);
+}
+#brands{
+    background-color: rgb(255, 255, 255);
+}
+#shop.container-fluid .row .col-lg-3{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+#by{
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+}
+#Conditioner .container-fluid .row .col-lg-3{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+#Mobile .container-fluid .row .col-lg-3{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+#brands .container-fluid .col .col-lg-12 {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+}
+#brands .container-fluid .col .col-lg-12 img{
+   border-radius: 50% !important;
+}
+#con{
+    margin-top: 100px !important;
+}
+#visa{
+    margin-top: 40px !important;
+}
+#contact{
+    margin-bottom: 40px !important;
+}
+.navbar-toggler-icon{
+    background-color: #fff;
+    border-radius: 3px !important;
+}
+#navbar {
+    background-color: #d72727 !important;
+}
+#btnn{
+    background-color: #fff;
+}
+.nav-item .nav-link {
+    background-color: #d72727 !important;
+    color: #fff !important;
+}
+.nav-item a:hover{
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    color: black !important;
+}
+@media(max-width:600px){
+   .row{
+        height: auto;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 8px;
+    }
+    #product h1{
+        font-size: 13px;
+    }
+    #product .card{
+        height: 90%;
+        width: 90%;
+    }
+    #product .card-body h5{
+        font-size: 7px;
+    }
+    #product button{
+        height: 5px;
+        width: 5px;
+    }
+    .card img {
+        height: 90px;
+        width: 280px;
+    }
+    .card{
+        margin-top: 7px !important;
+    }
+    #product .card-body {
+        padding-top:0%;
+        padding-bottom: 0%;
+    } 
+    #interest{
+        display: none !important;
+    }
+    .container h1{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .button{
+        display: flex;
+    }
+    .button{
+        width: 30px !important;
+        border-radius: 10%;
+        height: 20px !important;
+    }
+    .button a h6 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 3px !important;
+        margin: 0 !important;
+    }
+    .btn h6{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 3px !important;
+        margin: 0 !important;
+    }
+    .card-body h5{
+        margin-bottom: 4px !important;
+    }
+    .card-body h5{
+        font-size: 7px !important;
+    }
+    .text-shop h1 {
+        font-size: 13px ;
+        margin-bottom: 15px !important;
+    }
+    #Conditioner .card-body button{
+        height: 5px !important;
+        width: 5px !important;
+    }
+    #brands .container-fluid .col .col-lg-12 {
+        display: grid;
+        grid-template-columns:20% 20% 20% 20% 20%   ;
+    }
+    #brands img{
+        border: 0.5px solid  black;
+    }
+    #down img{
+        width: 100vw;
+    }
+    #con .container .row .col-lg-3 h5 {
+        font-size: 11px !important;
+    }
+    #con .container .row .col-lg-3 h6 {
+        font-size: 5px !important;
+    }
+    #con{
+        margin-top: 30px !important;
+    }
+    #contact h5{
+        font-size: 6px !important;
+    }
+    #visa{
+        margin-top: 10px !important;
+    }
+    #contact{
+        margin-bottom: 10px !important;
+    }
+    .navbar-brand h6{
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+    #navbarNav ul li {
+        font-size: 10px !important;
+    }
+    #btnn{
+        font-size: 9px !important;
+    }
+    #carouselExampleIndicators img{
+        height: 150px !important;
+    }
+}

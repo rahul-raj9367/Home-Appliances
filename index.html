@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathiya</title>
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="sathiya.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <section id="navbar">
+    <nav class="navbar navbar-expand-lg" >
+            <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255)"><h6>HOME APPLIANCES</h6></a>
+            <button class="navbar-toggler" type="button" style="color: rgb(255, 255, 255);"  data-bs-toggle="collapse"   data-bs-target="#navbarNav"  aria-expanded="false" >
+            </style>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="30" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
+              <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+              <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+            </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav mx-auto">    
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#"  style="color: rgb(0, 0, 0)">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop" style="color: black">SHOP</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brands" style="color: black">BRAND</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: black">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#product" style="color: black">PRODUCT</a>
+                    </li>
+                </ul>
+                <button class="btn " style="color:  black" id="btnn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>LOGIN/REGISTER</button>
+                  &nbsp;&nbsp;
+                  <svg style="color: rgb(255, 255, 255)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg>&nbsp;
+            </div>
+    </nav>
+    </section>
+    <!-- IMAGES -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="iphone1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="iphone.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="oppo.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="airpods.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+   
+    <!-- PRODUCT -->
+    <section id="product">
+      <div class="container">
+         <h1 class="text-center my-5" id="owr-product">OWR PRODUCT</h1>
+          <div class="row"> 
+              <div class="col-lg-3">
+                  <div class="card">
+                      <img class="img-fluid mx-auto d-block" src="lg.png" alt="dcc">
+                      <div class="card-body text-center">
+                          <h5 class="card-text">LG 65 Inch Class LED 4K UHD Smart TV (65UQ9000)</h5>
+                          <h5 class="card-text">₹95,300</h5>
+                          <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                      </div>
+              </div>
+              <br>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+                <img class="img-fluid mx-auto d-block " src="st1.png" alt="dcc">
+                <div class="card-body text-center">
+                    <h5 class="card-text" >Premier LPG Stove Manual PG 3X Oval Stainless Steel </h5>
+                    <h5 class="card-text">₹5,860</h5>
+                    <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+              </div>
+              <br>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+                <img class="img-fluid mx-auto d-block" src="tv.png" alt="dcc">
+                <div class="card-body text-center">
+                    <h5 class="card-text" >Wybor 102 cm (40 inch) HD Ready LED TV (WYBOR40WHS)</h5>
+                    <h5 class="card-text">₹16,990</h5>
+                    <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+              </div>
+              <br>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+                <img class="img-fluid mx-auto d-block " src="fr.png" alt="dcc">
+                <div class="card-body text-center">
+                    <h5 class="card-text" >Haier 278 Litres 4 Star Free Inverter Double Door Refrigerator </h5>
+                    <h5 class="card-text">₹31,990 </h5>
+                    <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+              </div>
+              <br>
+          </div>
+          <div class="col-lg-3">
+            <div class="card">
+                <img class="img-fluid mx-auto d-block" src="ac.png" alt="dcc">
+                <div class="card-body text-center">
+                    <h5 class="card-text">LG 1.5 Ton 4 Star Split Dual Inverter AC (1.5TPSQ19JNYE4S)</h5>
+                    <h5 class="card-text">₹41,990 </h5>
+                    <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="jbl.webp" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >JBL True Wireless, in-Ear Headphone -Black</h5>
+                  <h5 class="card-text">₹2,499 </h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="xi.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Xiaomi 11i 5G (128 GB, 6 GB RAM, MI11I6128GB)</h5>
+                  <h5 class="card-text">₹24,999</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block " src="st.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" > Smartwatch with Built-In Alexa Voice Assistant </h5>
+                  <h5 class="card-text">₹2,999</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="jb.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >JBL Bluetooth Headset with Mic (Black, In the Ear) </h5>
+                  <h5 class="card-text">₹1,999</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="jb2.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >JBL T110BT Wireless Pure Bass Bluetooth Headset with Mic  </h5>
+                  <h5 class="card-text">₹999</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="jb3.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >JBL in-Ear Wired Headset with Mic (Black, In the Ear) </h5>
+                  <h5 class="card-text">₹599</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="jb4.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >ORAIMO Ultra Light Single-Side Talking Wireless Earpiece </h5>
+                  <h5 class="card-text">₹499</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="mc.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Preethi Galaxy Plus MG 250 - Super Extractor Juicer Jar</h5>
+                  <h5 class="card-text">₹5,100</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="fan.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Crompton Metal Ariyabriz 48-Inch Ceiling Fan (Ivory) </h5>
+                  <h5 class="card-text">₹2000</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="gr.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Amirthaa Popular Wet Grinder with compact size 2L capacity</h5>
+                  <h5 class="card-text">₹4,599</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+              <img class="img-fluid mx-auto d-block" src="wash.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Samsung 7 kg Automatic Front Load Washing Machine</h5>
+                  <h5 class="card-text">₹39,000</h5>
+                 <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+                </div>
+            </div>
+          <br>
+        </div>  
+        </div>
+      </div>
+  </section>
+  <section>
+    <img src="banner.png" class="img-fluid">
+  </section>
+  <!-- SHOP BY CATEGORY -->
+  <section id="shop">
+    <div class="text-shop">
+      <h1 class="text-center my-5" id="by" style="color: #fff">SHOP BY CATEGORY</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-fluid mx-auto d-block" src="mobile.png" id="shop1" > 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid mx-auto d-block" src="laptop.png" id="shop1"> 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid mx-auto d-block" src="television.png" id="shop1"> 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid mx-auto d-block" src="refrigerator.png" id="shop1"> 
+        </div>
+      </div>
+    </div><br>
+    <div class="container" id="rah">
+      <div class="row">
+        <div class="col-lg-3">
+          <img class="img-fluid" src="washing-machine.png" > 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="ac (1).png"> 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="home-theatre.png" > 
+        </div>
+        <div class="col-lg-3">
+          <img class="img-fluid" src="dishwasher.png"> 
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </section>
+  <!-- AIR CONDITIONER -->
+  <section id="Conditioner"> 
+    <div class="text-shop">
+      <h1 class="text-center my-5" id="by" style="color: #000000">AIR CONDITIONER</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="ac11.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" >Blue Star 1.5 Ton 3 Star IA318DNU Inverter Split AC </h5>
+                <h5 class="card-text">₹ 43,790</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="ac2.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >LG 1.5 Ton 3 Star PSNQ Inverter Split AC</h5>
+              <h5 class="card-text">₹ 40,790</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="ac3.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >Samsung 1.5 Ton 3 Star AR18BYL Inverter Split AC</h5>
+            <h5 class="card-text">₹ 43,790</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img class="img-fluid mx-auto d-block" src="ac4.png" alt="dcc">
+      <div class="card-body text-center">
+          <h5 class="card-text" >Voltas 1.5 Ton 2 Star SAC 182 XZX Split Air Conditioner</h5>
+          <h5 class="card-text">₹ 38,640</h5>
+          <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+  <!-- MOBILE -->
+  <section id="Mobile"> 
+    <div class="text-shop">
+      <h1 class="text-center my-5" id="by" style="color: #000000">MOBILES</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="VIV0.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" >Vivo V23 Pro 5G, 8 GB RAM, 128 GB ROM Mobile Phone</h5>
+                <h5 class="card-text">₹ 40,740</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block"  src="oppo1.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >OPPO F19 PRO PLUS 5G (8 GB/128 GB) MOBILE PHONE</h5>
+              <h5 class="card-text">₹ 27,700</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="3 VIVO.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >VIVO Y33S (8+128 GB) MOBILE PHONE</h5>
+            <h5 class="card-text">₹ 19,990</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img class="img-fluid mx-auto d-block" src="5 Vivo V23.png" alt="dcc">
+      <div class="card-body text-center">
+          <h5 class="card-text" >Vivo V23 5G 8GB Ram 128 GB Rom Mobile Phone</h5>
+          <h5 class="card-text">₹ 31,200</h5>
+          <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+    <!-- TELEVISION -->
+    <section id="Conditioner"> 
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">TELEVISION</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="img-fluid mx-auto d-block" src="sony.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Sony Bravia 55Inch KD55X75K Smart Android LED TV</h5>
+                  <h5 class="card-text">₹ 68,390</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="sony1.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" >Sony Bravia 108 Cm (43) Full HD Smart LED TV 43W6600 </h5>
+                <h5 class="card-text">₹ 40,841</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="SAMSUNG.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >SAMSUNG 108 Cm 43T5350 Full HD Smart LED TV (Black)</h5>
+              <h5 class="card-text">₹ 28,640</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="samsung2.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >SAMSUNG 108 Cm 32T4450 Full HD Smart LED TV (Silver)</h5>
+            <h5 class="card-text">₹ 20,200</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+     <!-- REFRIGERATOR-->
+     <section id="Conditioner"> 
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">REFRIGERATOR</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="img-fluid mx-auto d-block" src="rg1.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >WHIRLPOOL 7.5 KG S.W PRO H GREY 10YM FULLY AUTOMATIC TOP LOADING WASHING MACHINE</h5>
+                  <h5 class="card-text">₹ 26,940</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="rg2.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" >BOSCH 8 KG WAJ2846SIN FULLY AUTOMATIC FRONT LOADING WASHING MACHINE</h5>
+                <h5 class="card-text">₹ 49,690</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="rg3.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >SAMSUNG 6.5 KG WA65T4262VS/TL FULLY AUTOMATIC TOP LOADING WASHING MACHINE</h5>
+              <h5 class="card-text">₹ 18,340</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="rg4.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >LG 260 L 2 Star Smart Inverter GL-N292BDSY SAPPHIRE MAGNOLIA Frost-Free Double-Door Refrigerator</h5>
+            <h5 class="card-text">₹ 24,990</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- WASHING MACHINE-->
+    <section id="Conditioner"> 
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">WASHING MACHINE</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="img-fluid mx-auto d-block" src="ws1.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >WHIRLPOOL 7.5 KG S.W PRO H GREY 10YM FULLY AUTOMATIC TOP LOADING WASHING MACHINE)</h5>
+                  <h5 class="card-text">₹ 33,590</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="ws2.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" > BOSCH 8 KG WAJ2846SIN FULLY AUTOMATIC FRONT LOADING WASHING MACHINE</h5>
+                <h5 class="card-text">₹ 49,690</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="ws3.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >SAMSUNG 6.5 KG WA65T4262VS/TL FULLY AUTOMATIC TOP LOADING WASHING MACHINE</h5>
+              <h5 class="card-text">₹ 18,3400</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="ws4.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >Samsung 7.0 Kg WA70A4022FS Fully-Automatic Top Loading Washing Machine</h5>
+            <h5 class="card-text">₹ 18,240</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- COMBO 1+1 OFFER-->
+    <section id="Conditioner"> 
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">COMBO 1+1 OFFER</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="img-fluid mx-auto d-block" src="cm1.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Usha Swift 48 Inch ( 1200mm ) Ceiling Fan Combo 1+1</h5>
+                  <h5 class="card-text">₹ 3,250</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="cm2.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" > Butterfly Platinum 2.O Induction Stove Combo 1+1</h5>
+                <h5 class="card-text">₹ 4,050</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="cm3.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >USHA 16 MIST AIR ICY TABLE FAN Combo 1+1</h5>
+              <h5 class="card-text">₹ 4,090</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="cm4.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >Butterfly FLORA 2 Litre Table Top Wet Grinder 1 + 1</h5>
+            <h5 class="card-text">₹ 7,690</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- CEILING FAN-->
+    <section id="Conditioner"> 
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">CEILING FAN</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img class="img-fluid mx-auto d-block" src="f1.png" alt="dcc">
+              <div class="card-body text-center">
+                  <h5 class="card-text" >Crompton 48 Ariya Briz Ceiling Fan</h5>
+                  <h5 class="card-text">₹ 1,790</h5>
+                  <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <img class="img-fluid mx-auto d-block" src="f2.png" alt="dcc">
+            <div class="card-body text-center">
+                <h5 class="card-text" >Usha Racer Chrome 1200mm Ceiling Fan</h5>
+                <h5 class="card-text">₹ 2,150</h5>
+                <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card">
+          <img class="img-fluid mx-auto d-block" src="f3.png" alt="dcc">
+          <div class="card-body text-center">
+              <h5 class="card-text" >Usha Airostrong Angle 48 Ceiling Fan</h5>
+              <h5 class="card-text">₹ 2,350</h5>
+              <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+          </div>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="card">
+        <img class="img-fluid mx-auto d-block" src="f4.png" alt="dcc">
+        <div class="card-body text-center">
+            <h5 class="card-text" >Crompton 48 Seno Prime Ceiling Fan</h5>
+            <h5 class="card-text">₹ 2,990</h5>
+            <button class="btn btn-warning "><h6 class="mx-auto d-block">ADD CART</h6></button> <button class="btn btn-dark"><h6 class="mx-auto d-block">BUY NOW</h6></button>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+   
+    <!-- BRANDS -->
+    <section id="brands">
+      <div class="text-shop">
+        <h1 class="text-center my-5" id="by" style="color: #000000">BRANDS</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="col">
+          <div class="col-lg-12 col-sm-12 col-12">
+            <img src="sony-logo.jpg" class="img-fluid">
+            <img src="Vivo (1).png" class="img-fluid">
+            <img src="Vidiem.png" class="img-fluid">
+            <img src="Xiaomi.png" class="img-fluid">
+            <img src="Usha.png" class="img-fluid">
+            <img src="TCL.png" class="img-fluid">
+            <img src="TOSHIBA.png" class="img-fluid">
+            <img src="Symphony.png" class="img-fluid">
+            <img src="Tata Sky.png" class="img-fluid">
+            <img src="Prestige.png" class="img-fluid">
+            <img src="Preethi.png" class="img-fluid">
+            <img src="oneplus.jpg" class="img-fluid">
+            <img src="PHILIPS.png" class="img-fluid">
+            <img src="Panasonic.png" class="img-fluid">
+            <img src="O General.png" class="img-fluid">
+            <img src="Mccoy.png" class="img-fluid">
+            <img src="Lloyd.png" class="img-fluid">
+            <img src="Liebherr (1).png" class="img-fluid">
+            <img src="Kent.png" class="img-fluid">
+            <img src="JBL.png" class="img-fluid">
+            <img src="PHILIPS.png" class="img-fluid">
+            <img src="Hyundai.jpg" class="img-fluid">
+            <img src="Hitachi.png" class="img-fluid">
+            <img src="Haier.png" class="img-fluid">
+            <img src="Hanbao.png" class="img-fluid">
+            <img src="Havells.png" class="img-fluid">
+            <img src="Godrej.png" class="img-fluid">
+            <img src="Faber.png" class="img-fluid">
+            <img src="dell.png" class="img-fluid">
+            <img src="Daikin.png" class="img-fluid">
+            <img src="Acer.png" class="img-fluid">
+            <img src="Airtel.png" class="img-fluid">
+            <img src="Amazon.png" class="img-fluid">
+            <img src="Apple.png" class="img-fluid">
+            <img src="Blue star.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      &nbsp;&nbsp;
+    </section>
+    <section id="down">
+    <div class="container-fluid">
+      <div class="col">
+        <div class="col-lg-12 col-sm-12 col-12">
+          <img src="down1.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    </section>
+  </section>
+    <!-- contact -->
+    <section id="con">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h5 class="text-center">EXTRAS</h5>
+            <h6 class="text-center" style="font-size: smaller;">Brands</h6>
+            <h6 class="text-center" style="font-size: smaller;"> Specials</h6>
+            <h6 class="text-center" style="font-size: smaller;">Gift Certificates</h6>
+            <h6 class="text-center" style="font-size: smaller;">Gift Certificates</h6>
+            <h6 class="text-center" style="font-size: smaller;">Order History</h6>
+          </div>
+          <div class="col-lg-3">
+            <h5  class="text-center">INFORMATION</h5>
+            <h6  class="text-center" style="font-size: smaller;">About Us</h6>
+            <h6  class="text-center" style="font-size: smaller;">Our Branches</h6>
+            <h6  class="text-center" style="font-size: smaller;"> Terms & Conditions</h6>
+            <h6  class="text-center" style="font-size: smaller;">Blog</h6>
+          </div>
+          <div class="col-lg-3">
+            <h5  class="text-center">MY ACCOUNT</h5>
+            <h6 class="text-center" style="font-size: smaller;"> My Account</h6>
+            <h6 class="text-center" style="font-size: smaller;"> Wish List</h6>
+            <h6 class="text-center" style="font-size: smaller;">Contact Us</h6>
+          </div>
+          <div class="col-lg-3">
+            <h5  class="text-center">OUR CONTACT</h5>
+            <h6 class="text-center" style="font-size: smaller;">Home Applicans</h6>
+            <h6 class="text-center" style="font-size: smaller;">No.14 Railway Border 1st Street,</h6>
+            <h6 class="text-center" style="font-size: smaller;">Kaveri Nagar,</h6>
+            <h6 class="text-center" style="font-size: smaller;">Saidapet,</h6>
+            <h6 class="text-center" style="font-size: smaller;">Chennai - 600015.</h6>
+            <h6 class="text-center" style="font-size: smaller;">onlinesupport@Home Applicans.co</h6>
+            <img class="img-fluid" src="cards.png" id="visa">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h5 class="text-center" style="font-size: smaller;">© 2022, HomeApplicansco.in Powered by RahulRaj</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
