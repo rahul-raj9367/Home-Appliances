@@ -138,8 +138,8 @@ h5{
         font-size: 7px;
     }
     #product button{
-        height: 5px;
-        width: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
     }
     .card img {
         height: 90px;
@@ -178,7 +178,7 @@ h5{
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        font-size: 3px !important;
+        font-size: 5px !important;
         margin: 0 !important;
     }
     .card-body h5{
