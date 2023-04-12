@@ -127,6 +127,10 @@ h5{
         grid-template-columns: 50% 50%;
         row-gap: 8px;
     }
+    .card-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+     }
     #product h1{
         font-size: 13px;
     }
