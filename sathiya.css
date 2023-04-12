@@ -193,7 +193,9 @@ h5{
     }
     #brands .container-fluid .col .col-lg-12 {
         display: grid;
-        grid-template-columns:20% 20% 20% 20% 20%   ;
+        grid-template-columns:20% 20% 20% 20% 20%;
+        gap: 5.5px !important;
+        align-items: center !important;
     }
     #brands img{
         border: 0.5px solid  black;
