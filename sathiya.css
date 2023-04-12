@@ -195,14 +195,6 @@ h5{
         font-size: 13px ;
         margin-bottom: 15px !important;
     }
-    #Conditioner .card-body button{
-        padding-left: 3px !important;
-        padding-right: 3px !important;
-    }
-    #Mobile .card-body button { 
-        padding-left: 3px;
-        padding-right: 3px;
-    }
     #brands .container-fluid .col .col-lg-12 {
         display: grid;
         grid-template-columns:20% 20% 20% 20% 20%   ;
