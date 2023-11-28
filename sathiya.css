@@ -120,6 +120,30 @@ h5{
     border-radius: 5px !important;
     color: black !important;
 }
+.navbar{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      #banner{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      #brands{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      #down{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      #con{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
+      #contact{
+        max-width: 1900px;
+        margin: 0 auto;
+      }
 @media(max-width:600px){
    .row{
         height: auto;
